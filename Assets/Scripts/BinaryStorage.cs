@@ -9,7 +9,7 @@ using UnityEngine;
 namespace Assets.Scripts
 {
     /// <summary>
-    /// Load/Save PlayerData in binary format
+    /// 11/12/17: Load/Save PlayerData in binary format
     /// </summary>
     class BinaryStorage : IPersist
     {

@@ -1,0 +1,126 @@
+Initialize engine version: 5.4.5p5 (8c4c93a90556)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics (ID=0x102)
+    Vendor:   Intel
+    VRAM:     1632 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.185 seconds
+Platform assembly: C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\System.dll (this message is harmless)
+desktop: 1080x1920 59Hz; virtual: 1080x1920 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.351702 ms
+GameControl.Awake()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+ASSIGNING STATIC: theStaticControl
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameControl.Start()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform assembly: C:\5Work\Unity\LearnPlayerPrefs\LearnPlayerPrefs_Data\Managed\System.Xml.dll (this message is harmless)
+ArgumentException: Encoding name 'Windows-1252' not supported
+Parameter name: name
+  at System.Text.Encoding.GetEncoding (System.String name) [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlInputStream.Initialize (System.IO.Stream stream) [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlInputStream..ctor (System.IO.Stream stream) [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlStreamReader..ctor (System.IO.Stream input) [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlTextReader..ctor (System.IO.Stream input) [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.Deserialize (System.IO.Stream stream) [0x00000] in <filename unknown>:0 
+  at Assets.Scripts.XmlStorage.Load () [0x00000] in <filename unknown>:0 
+  at GameControl.Load () [0x00000] in <filename unknown>:0 
+  at GameControl.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+-UNLOADED: Scene1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+UnloadTime: 49.523006 ms
+GameControl.Awake()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+ASSIGNING STATIC: theStaticControl
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
++LOADED: Scene2 mode: Single
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+SceneChanged:  - Scene2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 209.
+Total: 0.340206 ms (FindLiveObjects: 0.018625 ms CreateObjectMapping: 0.009502 ms MarkObjects: 0.302194 ms  DeleteObjects: 0.004941 ms)
+
+GameControl.Start()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+-UNLOADED: Scene2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+-UNLOADED: Scene2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+UnloadTime: 33.380123 ms
+GameControl.Awake()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+ASSIGNING STATIC: theStaticControl
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
++LOADED: Scene1 mode: Single
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
++LOADED: Scene1 mode: Single
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+SceneChanged:  - Scene1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+SceneChanged:  - Scene1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 218.
+Total: 0.349709 ms (FindLiveObjects: 0.020146 ms CreateObjectMapping: 0.011403 ms MarkObjects: 0.312457 ms  DeleteObjects: 0.004561 ms)
+
+GameControl.Start()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1bfc -> priority: 1 

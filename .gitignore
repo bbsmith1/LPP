@@ -1,3 +1,6 @@
+# me: This unity template from github
+# me: plus my additions are: *.meta,*.dll,*.mdb
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -32,3 +35,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.meta
+*.dll
+*.mdb

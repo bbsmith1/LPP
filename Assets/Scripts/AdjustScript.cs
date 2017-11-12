@@ -9,7 +9,7 @@ using System.Collections.Generic;
 /// </summary>
 public class AdjustScript : MonoBehaviour {
 
-    private const int VALUE = 1;
+    public int Value = 1;
     private List<int> topList;
     private void Start()
     {
@@ -25,19 +25,19 @@ public class AdjustScript : MonoBehaviour {
     {
         if (GUI.Button(new Rect(10, 10, 200,60), "Health up"))
         {
-            GameControl.theStaticControl.Health += VALUE;
+            GameControl.theStaticControl.Health += Value;
         }
         if (GUI.Button(new Rect(10, 70, 200,60), "Health down"))
         {
-            GameControl.theStaticControl.Health -= VALUE;
+            GameControl.theStaticControl.Health -= Value;
         }
         if (GUI.Button(new Rect(10, 130, 200,60), "experience up"))
         {
-            GameControl.theStaticControl.Experience += VALUE;
+            GameControl.theStaticControl.Experience += Value;
         }
         if (GUI.Button(new Rect(10, 190, 200,60), "experience down"))
         {
-            GameControl.theStaticControl.Experience -= VALUE;
+            GameControl.theStaticControl.Experience -= Value;
         }
         //       if (GUI.Button(new Rect(10, 260, 200,60), "Save"))
         //       {

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 /// <summary>
 /// adjust values
 /// 11/11/17: git test after making bbsmith1 new user id
+/// 11/12/17: git test after publishing to LPP on GitHub
 /// </summary>
 public class AdjustScript : MonoBehaviour {
 

@@ -8,6 +8,9 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
+    /// <summary>
+    /// Load/Save PlayerData in binary format
+    /// </summary>
     class BinaryStorage : IPersist
     {
         private string _FileName = Application.persistentDataPath + "/playerData.dat";

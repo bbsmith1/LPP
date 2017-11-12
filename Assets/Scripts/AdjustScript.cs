@@ -2,6 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+/// adjust values
+/// 11/11/17: git test after making bbsmith1 new user id
+/// </summary>
 public class AdjustScript : MonoBehaviour {
 
     private List<int> topList;
